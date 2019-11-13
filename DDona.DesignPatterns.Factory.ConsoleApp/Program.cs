@@ -1,9 +1,9 @@
-﻿using DDona.DesignPatterns.Factory.Domain.Enums;
-using DDona.DesignPatterns.Factory.Domain.Factories;
-using DDona.DesignPatterns.Factory.Domain.Interfaces;
+﻿using DDona.DesignPatterns.FactoryMethod.Domain.Enums;
+using DDona.DesignPatterns.FactoryMethod.Domain.Factories;
+using DDona.DesignPatterns.FactoryMethod.Domain.Interfaces;
 using System;
 
-namespace DDona.DesignPatterns.Factory.ConsoleApp
+namespace DDona.DesignPatterns.FactoryMethod.ConsoleApp
 {
     class Program
     {

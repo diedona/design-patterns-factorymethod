@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DDona.DesignPatterns.Factory.Domain.Enums
+namespace DDona.DesignPatterns.FactoryMethod.Domain.Enums
 {
     public enum ESituationType
     {

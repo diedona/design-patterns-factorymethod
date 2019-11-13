@@ -1,9 +1,9 @@
-﻿using DDona.DesignPatterns.Factory.Domain.Interfaces;
+﻿using DDona.DesignPatterns.FactoryMethod.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DDona.DesignPatterns.Factory.Domain.Factories.Base
+namespace DDona.DesignPatterns.FactoryMethod.Domain.Factories.Base
 {
     public abstract class HeroFactoryBase
     {

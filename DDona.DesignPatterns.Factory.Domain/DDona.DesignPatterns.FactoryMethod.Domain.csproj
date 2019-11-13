@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>DDona.DesignPatterns.FactoryMethod.Domain</AssemblyName>
+    <RootNamespace>DDona.DesignPatterns.FactoryMethod.Domain</RootNamespace>
+  </PropertyGroup>
+
+</Project>

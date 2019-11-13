@@ -3,10 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>DDona.DesignPatterns.FactoryMethod.ConsoleApp</AssemblyName>
+    <RootNamespace>DDona.DesignPatterns.FactoryMethod.ConsoleApp</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DDona.DesignPatterns.Factory.Domain\DDona.DesignPatterns.Factory.Domain.csproj" />
+    <ProjectReference Include="..\DDona.DesignPatterns.Factory.Domain\DDona.DesignPatterns.FactoryMethod.Domain.csproj" />
   </ItemGroup>
 
 </Project>

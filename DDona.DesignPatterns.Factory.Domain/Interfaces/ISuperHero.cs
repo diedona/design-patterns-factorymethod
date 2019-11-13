@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DDona.DesignPatterns.Factory.Domain.Interfaces
+namespace DDona.DesignPatterns.FactoryMethod.Domain.Interfaces
 {
     public interface ISuperHero
     {

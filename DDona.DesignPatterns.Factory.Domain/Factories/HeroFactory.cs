@@ -1,11 +1,11 @@
-﻿using DDona.DesignPatterns.Factory.Domain.Enums;
-using DDona.DesignPatterns.Factory.Domain.Factories.Base;
-using DDona.DesignPatterns.Factory.Domain.Interfaces;
+﻿using DDona.DesignPatterns.FactoryMethod.Domain.Enums;
+using DDona.DesignPatterns.FactoryMethod.Domain.Factories.Base;
+using DDona.DesignPatterns.FactoryMethod.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DDona.DesignPatterns.Factory.Domain.Factories
+namespace DDona.DesignPatterns.FactoryMethod.Domain.Factories
 {
     public class HeroFactory
     {
