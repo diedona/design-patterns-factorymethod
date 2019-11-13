@@ -11,7 +11,7 @@ namespace DDona.DesignPatterns.Factory.Domain.Factories
     {
         private readonly Dictionary<ESituationType, HeroFactoryBase> _factories;
 
-        public HeroFactory()
+        private HeroFactory()
         {
             _factories = new Dictionary<ESituationType, HeroFactoryBase>()
             {
@@ -19,6 +19,13 @@ namespace DDona.DesignPatterns.Factory.Domain.Factories
                 { ESituationType.Stealth, new BatmanFactory() },
                 { ESituationType.Strength, new SupermanFactory() }
             };
+        }
+
+        public static HeroFactory InitializeFactories() => new HeroFactory();
+
+        public ISuperHero GetHero(ESituationType situationType)
+        {
+            return _factories[situationType].Create();
         }
     }
 }
