@@ -11,7 +11,7 @@ namespace DDona.DesignPatterns.Factory.Domain.Factories
     {
         public override ISuperHero Create()
         {
-            return new Wonderwoman();
+            return new WonderWoman();
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DDona.DesignPatterns.Factory.Domain.Entities
 {
-    public class Wonderwoman : ISuperHero
+    public class WonderWoman : ISuperHero
     {
         public string HeroName { get { return "Wonderwoman"; } }
 
