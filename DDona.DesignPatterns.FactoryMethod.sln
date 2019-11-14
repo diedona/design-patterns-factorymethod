@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDona.DesignPatterns.FactoryMethod.Domain", "DDona.DesignPatterns.Factory.Domain\DDona.DesignPatterns.FactoryMethod.Domain.csproj", "{9B67AC01-D67D-49CE-A19C-A0815CBF8D04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDona.DesignPatterns.FactoryMethod.Domain", "DDona.DesignPatterns.Factory.Domain\DDona.DesignPatterns.FactoryMethod.Domain.csproj", "{9B67AC01-D67D-49CE-A19C-A0815CBF8D04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDona.DesignPatterns.Factory.ConsoleApp", "DDona.DesignPatterns.Factory.ConsoleApp\DDona.DesignPatterns.Factory.ConsoleApp.csproj", "{49E7FFB6-53F0-4537-9860-8234BF591089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDona.DesignPatterns.FactoryMethod.ConsoleApp", "DDona.DesignPatterns.Factory.ConsoleApp\DDona.DesignPatterns.FactoryMethod.ConsoleApp.csproj", "{49E7FFB6-53F0-4537-9860-8234BF591089}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
